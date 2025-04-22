@@ -4,19 +4,21 @@
     list-style: none;
     text-decoration: none;
     font-family: monospace;
+    color: rgb(194, 193, 193);
 
 }
 body {
-    background-color: #121212;
-    color: white;
+    background-color: #252525;
+    color: rgb(194, 193, 193);
 }
 .header {
-    background-color: #252525;
+    background-color: black;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
     height: 60px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2)
 }
 .header-left {
     display: flex;
